@@ -31,7 +31,7 @@ var custom_accordion = (function () {
       currentDesc.siblings('dd').slideUp('fast');
 
       //Remove the active class from other dt elements while the current dt element is clicked.
-      $currentTerm.siblings('dt').removeClass('active');
+      def_terms.removeClass('active');
 
     }
     else {
