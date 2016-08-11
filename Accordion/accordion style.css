@@ -1,0 +1,35 @@
+﻿fieldset {
+  border-radius: 1em;
+  border: solid 1px #ccc;
+  max-width: 500px;
+  padding: 0 0.789rem;
+}
+
+.apress-accordion dt {
+  font: bold 14px/18px "Trebuchet Ms", Arial, "sans-serif";
+  color: #545c60;
+  cursor: pointer;
+  border: solid 1px #cfcfcf;
+  padding: 0.535rem;
+}
+
+.apress-accordion dt.active {
+  background-color: #f1f1f1
+}
+
+.apress-accordion dd {
+  background-color: #f1f1f1;
+  border: solid 1px #cfcfcf;
+  padding: 0.535rem;
+  display: none;
+  margin: 0
+}
+
+.apress-accordion dd.show {
+  display: block
+}
+
+dt, dd {
+    max-width: 500px;
+    max-height: 500px;
+}
